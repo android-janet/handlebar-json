@@ -1,0 +1,30 @@
+{
+  "name": "handlebar-js",
+  "version": "0.0.1",
+  "authors": [
+    "Melissa Khat <melissa.khat@gmail.com>"
+  ],
+  "description": "practice handlebar js api",
+  "main": "main.js",
+  "keywords": [
+    "practice",
+    "handlebar",
+    "js",
+    "api"
+  ],
+  "license": "MIT",
+  "homepage": "http://localhost:3000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+ "dependencies": {
+"jquery": "2.1.3",
+"handlebars": "3.0.2"
+ }
+
+
+}

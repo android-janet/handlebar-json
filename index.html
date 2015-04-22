@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Handlebar Practice with Json and API</title>
+
+   <script type="text/javascript" src="bower_components/handlebars/handlebars.js"></script>
+   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+   <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+   <script id="product-template" type="text/x-handlebars-template">
+      {{#each this}}
+       <h1>Product Name: {{name}}</h1>
+         <h1>Product Description: {{description}} </h1>
+         <h1> Product Price: {{price}} </h1>
+         {{/each}}
+   </script>
+
+
+   <script id="order-template"  type="text/x-handlebars-template">
+      {{#each this}}
+      <h1> Order: </h1>
+         <h2> Total {{total}} </h2>
+            <h2> Subtotal {{sub_total}} </h2>
+               <h2> Tax {{tax}} </h2>
+                  <h2> Status {{status}} </h2>
+                  {{/each}}
+               </script>
+
+   </body>
+</html>
