@@ -1,3 +1,4 @@
+   
 
    $(function(){
       var source = $("#product-template").html();
